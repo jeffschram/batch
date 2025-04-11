@@ -1,0 +1,48 @@
+:root {
+  --white: #ffffff;
+  --offwhite: #fafafa;
+  --eggshell: #e4e0d7;
+  --black-dark: #111111;
+  --black-medium: #0d0902;
+  --orange-dark: #ffa500;
+  --orange-light: #ffd486;
+  --blue-dark: #3e6990;
+  --blue-light: #91b2d0;
+  --salmon-dark: #ff6978;
+  --salmon-light: #f6e8ea;
+  --green-dark: #6a8048;
+  --green-light: #aabd8c;
+
+  --surface: var(--black-dark);
+  --surface-text: var(--eggshell);
+  --surface-light: var(--black-medium);
+  --surface-light-text: var(--eggshell);
+  --brand: var(--orange-dark);
+  --brand-text: var(--black-medium);
+  --brand-light: var(--orange-light);
+  --brand-light-text: var(--black-medium);
+  --accent-1: var(--blue-dark);
+  --accent-1-text: var(--offwhite);
+  --accent-1-light: var(--blue-light);
+  --accent-1-light-text: var(--black-medium);
+  --accent-2: var(--salmon-dark);
+  --accent-2-text: var(--offwhite);
+  --accent-2-light: var(--salmon-light);
+  --accent-2-light-text: var(--black-medium);
+  --accent-3: var(--green-dark);
+  --accent-3-text: var(--offwhite);
+  --accent-3-light: var(--green-light);
+  --accent-3-light-text: var(--black-medium);
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: var(--surface);
+  color: var(--surface-text);
+}
+
+* {
+  box-sizing: border-box;
+}
